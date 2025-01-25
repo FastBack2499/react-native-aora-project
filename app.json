@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "react-native-crach-course",
-    "slug": "react-native-crach-course",
+    "name": "Test",
+    "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "test",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.fast.aora"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fast.aora"
     },
     "web": {
       "bundler": "metro",
